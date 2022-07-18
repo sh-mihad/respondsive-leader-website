@@ -1,0 +1,58 @@
+/*-------------
+ Main css 
+ -------------*/
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto:wght@400;500&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*---------
+ css for menu bar
+ ------- */
+
+.menu-header{
+    height: 85px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 855px;
+
+}
+.menu-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.logo img{
+   width: 42px;
+   height: 56px;
+}
+.logo h4{
+  font-size: 24px;
+  color: white;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.menu-list li{
+    list-style: none;
+    margin-left: 15px;
+}
+.menu-list a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}

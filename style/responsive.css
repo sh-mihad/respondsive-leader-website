@@ -24,25 +24,29 @@
     justify-content: right;
     
 }
-.menu-list li,a,.menu-list img, hr{
+.menu-list li,.menu-list a,.menu-list img, hr{
     display: none;
 }
 .fa-bars{
     display: inline-block;
    
 }
-.player{
+.player,.blog{
     
     grid-template-columns: repeat(1,1fr);
     align-items: center;
 }
-.player-item{
+.player-item,.blog-item{
    
    flex-direction: column;
     align-items: center;
     margin-top: 1.5em;
 }
- .blog,.course{
+.blog-info{
+  width: 80%;
+  text-align: center;
+}
+ .course{
     display: none;
 }
     

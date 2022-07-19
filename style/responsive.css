@@ -6,21 +6,29 @@
 
 @media only screen and (max-width:640px) {
 
-    /* menu bar  */
-    .menu-header{
-        height: auto;
-    }
-    .menu-box{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .menu{
-        width: 100%;
-        
-    }
-    .logo, .menu-list{
-        justify-content: center;
-    }
 
+ .menu{
+    width: 100%;
+ }
+.menu-box{
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-evenly;
+    padding: 0em 2em;
+}
+.menu-list{
+    justify-content: right;
+    
+}
+.menu-list li,a,.menu-list img{
+    display: none;
+}
+.fa-bars{
+    display: inline-block;
+   
+}
+section {
+    display: none;
+}
     
 }
 @media only screen  and (min-width:641px) and (max-width:922px){

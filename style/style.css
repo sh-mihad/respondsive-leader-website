@@ -36,7 +36,7 @@ hr{
  ------- */
 
 .menu-header{
-    height: 85px;
+    height: auto;
     background-color: #562EFF;
     display: flex;
     justify-content: center;
@@ -44,8 +44,7 @@ hr{
 }
 .menu{
     width: 80%;
-    
-
+ 
 }
 .menu-box{
     display: grid;
@@ -56,6 +55,8 @@ hr{
     display: flex;
     align-items: center;
     column-gap: 1em;
+    width: 100%;
+    
 }
 .logo img{
    width: 42px;
@@ -71,6 +72,11 @@ hr{
     align-items: center;
     column-gap: 15px;
     justify-content: space-evenly
+}
+.fa-bars {
+    color: white;
+    font-size: 1.8em;
+    display: none;
 }
 .menu-list li{
     list-style: none;

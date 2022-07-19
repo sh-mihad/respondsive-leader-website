@@ -31,7 +31,7 @@
     display: inline-block;
    
 }
-.player,.blog{
+.player,.blog, .course{
     
     grid-template-columns: repeat(1,1fr);
     align-items: center;
@@ -46,9 +46,7 @@
   width: 80%;
   text-align: center;
 }
- .course{
-    display: none;
-}
+
     
 }
 @media only screen  and (min-width:641px) and (max-width:922px){
